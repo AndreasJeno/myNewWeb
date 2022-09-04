@@ -24,6 +24,7 @@
     <hr size="2px" >
     <h5>Messege for admin : </h5>
     <form action="index.html">
+        <!--
         <label>Your name:</label>
         <input type="text" placeholder="name"><input type="checkbox" name="" id="">
         <br>
@@ -33,20 +34,34 @@
         <input type="file" name="" id=""><br>
         <label for="">radio:</label>
         <input type="radio" name="" id=""><br>
-        <input type="image" name="" id="">
+        <input type="image" name="" id=""><br>
+        <textarea name="name" id="" cols="30" rows="10"></textarea>
+        -->
     </form>
+<!--
+    <form action="mailto:info@figojen3@gmail.com" method="post"> == KALAU UNTUK KIRIM EMAIL 
+-->  
+<form action="mailto:info@figojen3@gmail.com" method="post">        
     <table>
-        <tr>
-            <td>Your name </td>
-            <td><input type="text" placeholder="name"></td>
-        </tr>
-      
-        <tr>
-            <td>Your password </td>
-            <td><input type="password" placeholder="password"></td>
-        </tr>
-    </table>
-    <button><strong>SUMBIT</strong></button>
+            <tr>
+                <td>Your name </td>
+                <td><input type="text" name="yourName"placeholder="name"></td>
+            </tr>
+          
+            <tr>
+                <td>Your email </td>
+                <td><input type="email"  name="youremail" placeholder="email"></td>
+            </tr>
+            <tr>
+                <td><label for="">Your Password</label></td>
+                <td><input type="password" name="" aria-placeholder="67px" placeholder="password">
+                </td>
+            </tr>
+        </table>
+        <label for="">Leaves a massage: </label><br>
+        <textarea name="massage" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="" id="">
+    </form>
     <hr size="2px" >
     <a href="index.html"><strong><em>BACK</em></strong></a>
 
